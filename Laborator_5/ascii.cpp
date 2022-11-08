@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-    cout << "Codul ASCII (" << 65 << ") corespunde caracterului: "  << static_cast< char >(65) << endl;
+    cout << "Codul ASCII (" << 65 << ") corespunde caracterului: "  << static_cast<char>(65) << endl;
 
-    cout << "Orice numar, prin conversie la bool, devine " << static_cast< bool >(65) << endl;
+    cout << "Orice numar, prin conversie la bool, devine " << static_cast<bool>(65) << endl;
     // orice numar diferit de 0, convertit la bool, va fi 1.
     // doar 0 va fi 0 in urma conversiei
 
