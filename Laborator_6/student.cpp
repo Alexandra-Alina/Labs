@@ -40,8 +40,12 @@ Student Get_Date_Student()
 
 void Display_Date_Student(Student s)
 {
-    cout <<setw(15) << left << s.nume << setw(15) << left << s.prenume << setw(15) << left
-         << s.varsta << setw(15) << left << s.grupa << setw(15) << left << s.an << endl;
+    cout <<setw(15) << left << s.nume 
+         << setw(15) << left << s.prenume 
+         << setw(15) << left << s.varsta 
+         << setw(15) << left << s.grupa 
+         << setw(15) << left << s.an 
+         << endl;
 
 }
 
@@ -60,8 +64,12 @@ int main()
 
     cout << "-------------------------------------------------------------------" << endl;
 
-    cout <<setw(15) << left << "NUME" << setw(15) << left << "PRENUME" << setw(15) << left
-         << "VARSTA" << setw(15) << left << "GRUPA" << setw(15) << left << "AN" << endl;
+    cout <<setw(15) << left << "NUME" 
+         << setw(15) << left << "PRENUME" 
+         << setw(15) << left << "VARSTA" 
+         << setw(15) << left << "GRUPA" 
+         << setw(15) << left << "AN" 
+         << endl;
 
     cout << "-------------------------------------------------------------------" << endl;
 
