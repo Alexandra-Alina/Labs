@@ -40,7 +40,7 @@ Student Get_Date_Student()
 
 void Display_Date_Student(Student s)
 {
-    cout <<setw(15) << left << s.nume 
+    cout << setw(15) << left << s.nume 
          << setw(15) << left << s.prenume 
          << setw(15) << left << s.varsta 
          << setw(15) << left << s.grupa 
