@@ -64,7 +64,7 @@ int main()
 
     cout << "-------------------------------------------------------------------" << endl;
 
-    cout <<setw(15) << left << "NUME" 
+    cout << setw(15) << left << "NUME" 
          << setw(15) << left << "PRENUME" 
          << setw(15) << left << "VARSTA" 
          << setw(15) << left << "GRUPA" 
